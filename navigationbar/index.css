@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.one {
+    background-color:  rgb(85, 84, 84);
+    width: 15%;
+    border: 2px solid black;
+
+}
+
+.two {
+    background-color: orangered;
+        width: 85%;
+}
+ .one a {
+    border: 1px solid white;
+    text-decoration: none;
+    color:white;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .one a:hover {
+    background-color:rgb(65, 21, 136);
+ }
+ .logo {
+   width: 9%;
+    margin-bottom: 0;
+    background-color: rgb(240,240,240);
+ }
+ .portal{
+   display: flex;
+ }
+ .marker{
+   width:91%
+ }
+ .gray{
+   height: 7.9vh;
+   width: 100%;
+   background-color: rgb(221, 218, 218);
+   padding: 0.25rem;
+ }
+ .red{
+   height: 7.9vh;
+   width: 100%;
+   background-color: rgb(151,0,3);
+ }
+ .flex {
+    display: flex;
+ }
+ h1,h3 {
+    text-align: center;
+    font-size: 30px;
+ }
+ .portal {
+   display: flex;
+ }
+ h3{
+   font-size: 30px;
+   color: rgb(151,0,3);
+   font-family: 'Times New Roman', Times, serif, sans-serif;
+   
+ }
+ h1 {
+   color:azure;
+ }
+ i{
+   color: rgb(37, 37, 139);
+ }
+ 
+
+.container{
+background-color:burlywood; 
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.one-one{
+       width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.two-two{
+   width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container-in{
+border: 1px solid;
+border-radius: 10px;
+background-color: white;
+height: 40vh;
+width: 30%;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.one-one input[TYPE="TEXT"] {
+border: 1px solid black;
+border-radius: 5px;
+padding-left: 10px;
+height: 30px;
+width: 80%;
+   
+}
+
+.two-two input[TYPE="password"] {
+   border: 1px solid black;
+   border-radius: 5px;
+   padding-left: 10px;
+   height: 30px;
+   width: 80%;
+}
+.three-three{
+   display: flex;
+   width: 80%;
+   justify-content: flex-start;
+}
+
+.four-four button{
+   height: 30px;
+   border: none;
+   border-radius: 10px;
+   background-color: blue;
+   color: white;
+   width: 80%;
+}
+
+.four-four{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+
+.card{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+
+.names {
+   padding: 1rem;
+   width: 100%;
+   display: flex;
+flex-direction: column;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+align-items: center;
+justify-content: center;
+font-size: medium;
+}
+card-two {
+   height: 375px;
+   width: 80%;
+   margin: auto;
+}
+.red h1{
+   color: whitesmoke;
+   text-align: left;
+   padding: 0.7rem;
+}
+.two h1{
+    
+   
+      box-shadow: rgba(50, 50, 93, 0.5) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   
+}
+.names h2,h3{
+   color: wheat;
+}
+.gray h3{
+   color: rgb(151,0,3);
+}
+.red h1{
+   font-style: italic;
+}
+.two{
+   background-color: burlywood;
+}
+img{
+   width: 100%;
+}
